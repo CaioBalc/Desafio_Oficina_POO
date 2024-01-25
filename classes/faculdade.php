@@ -1,6 +1,6 @@
 <?php
 
-class faculdade
+class Faculdade
 {
     public string $nome;
     public array $disciplinas;

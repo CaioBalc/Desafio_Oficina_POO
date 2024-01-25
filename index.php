@@ -1,5 +1,6 @@
 <?php
 
+# Requisições
 require_once "./classes/abstractPessoa.php";
 require_once "./classes/aluno.php";
 require_once "./classes/disciplina.php";
@@ -24,11 +25,22 @@ $disciplina_3 = new Disciplina("Física Avançada", 80.0, "Isaque Neuto", [$alun
 #Dados da faculdade: nome, disciplinas
 $faculdade = new Faculdade("UNISC", [$disciplina_1, $disciplina_2, $disciplina_3]);
 
-print_r($aluno_1);
-print_r($aluno_2);
-print_r($aluno_3);
-print_r($professor_1);
-print_r($professor_2);
-print_r($disciplina_1);
-print_r($disciplina_2);
-print_r($disciplina_3);
+file_put_contents(json_encode($faculdade), $faculdade);
+
+# Impressões na tela
+echo "ALUNOS:\n";
+echo $aluno_1;
+echo $aluno_2;
+echo $aluno_3;
+echo "PROFESSORES:\n";
+echo $professor_1;
+echo $professor_2;
+echo "DISCIPLINAS:\n";
+echo $disciplina_1;
+echo $disciplina_2;
+echo $disciplina_3;
+// print_r($professor_1);
+// print_r($professor_2);
+// print_r($disciplina_1);
+// print_r($disciplina_2);
+// print_r($disciplina_3);
