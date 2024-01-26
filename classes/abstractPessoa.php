@@ -10,7 +10,7 @@ abstract class AbstractPessoa
         $this->nome = $nome;
         $this->idade = $idade;
     }
-
+/*
     public function getNome()
     {
         return $this->nome;
@@ -30,4 +30,5 @@ abstract class AbstractPessoa
     {
         $this->idade = $idade;
     }
+    */
 }
