@@ -25,7 +25,7 @@ $disciplina_3 = new Disciplina("Física Avançada", 80.0, "Isaque Neuto", [$alun
 #Dados da faculdade: nome, disciplinas
 $faculdade = new Faculdade("UNISC", [$disciplina_1, $disciplina_2, $disciplina_3]);
 
-file_put_contents(json_encode($faculdade), $faculdade);
+file_put_contents("arquivo.json", json_encode($faculdade, JSON_PRETTY_PRINT));
 
 # Impressões na tela
 echo "ALUNOS:\n";

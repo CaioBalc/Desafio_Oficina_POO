@@ -1,0 +1,74 @@
+{
+    "nome": "UNISC",
+    "disciplinas": [
+        {
+            "nome": "Ci\u00eancia de Dados",
+            "cargaHoraria": 80,
+            "professor": "Ada Louve Lince",
+            "alunos": [
+                {
+                    "matricula": 2,
+                    "notas": [
+                        8.7,
+                        10,
+                        8
+                    ]
+                },
+                {
+                    "matricula": 3,
+                    "notas": [
+                        7.9,
+                        8.8,
+                        9.5
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "Internet das Coisas",
+            "cargaHoraria": 60,
+            "professor": "Ada Louve Lince",
+            "alunos": [
+                {
+                    "matricula": 2,
+                    "notas": [
+                        8.7,
+                        10,
+                        8
+                    ]
+                },
+                {
+                    "matricula": 3,
+                    "notas": [
+                        7.9,
+                        8.8,
+                        9.5
+                    ]
+                }
+            ]
+        },
+        {
+            "nome": "F\u00edsica Avan\u00e7ada",
+            "cargaHoraria": 80,
+            "professor": "Isaque Neuto",
+            "alunos": [
+                {
+                    "matricula": 1,
+                    "notas": [
+                        9.1,
+                        9.9,
+                        8
+                    ]
+                },
+                {
+                    "matricula": 2,
+                    "notas": [
+                        8.7,
+                        10,
+                        8
+                    ]
+                }
+            ]
+        }
+    ]
+}
