@@ -2,7 +2,7 @@
 
 class Professor extends AbstractPessoa// Com disciplina 1:n. 
 {
-    public array $disciplina; // Array obj. disciplina
+    protected array $disciplina; // Array obj. disciplina
 
     public function __construct(string $nome, int $idade, array $disciplina)
     {

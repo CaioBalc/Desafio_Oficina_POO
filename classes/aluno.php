@@ -2,8 +2,8 @@
 
 class Aluno extends AbstractPessoa // Com disciplina 1:n
 {
-    public int $matricula;
-    public array $notas; // Array float
+    protected int $matricula;
+    protected array $notas; // Array float
     
     public function __construct(string $nome, int $idade, int $matricula, array $notas = [])
     {

@@ -2,8 +2,8 @@
 
 class Faculdade
 {
-    public string $nome;
-    public array $disciplinas;
+    protected string $nome;
+    protected array $disciplinas;
 
     public function __construct(string $nome, array $disciplinas)
     {

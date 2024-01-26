@@ -5,10 +5,10 @@ require_once "professor.php";
 
 class Disciplina // Com professor 1:1. Com aluno 0:n
 {
-    public string $nome;
-    public float $cargaHoraria;
-    public string $professor;
-    public array $alunos; // Array obj. alunos
+    protected string $nome;
+    protected float $cargaHoraria;
+    protected string $professor;
+    protected array $alunos; // Array obj. alunos
 
     public function __construct(string $nome, float $cargaHoraria, string $professor, array $alunos)
     {
